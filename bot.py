@@ -69,8 +69,6 @@ def handle_all_messages(message):
 # 5. Bot ကို စတင် Run ခြင်း
 if __name__ == "__main__":
     print("Multi-Bot is starting on Render...")
-    bot.infinity_polling()
-        if __name__ == "__main__":
-            print("Multi-Bot is starting on Render...")
-            bot.remove_webhook() # <--- ဒါလေး ထည့်ပေးပါ
-            bot.infinity_polling(restart_on_change=True)
+    bot.infinity_polling() 
+    bot.remove_webhook() # <--- ဒါလေး ထည့်ပေးပါ
+    bot.infinity_polling(restart_on_change=True)
