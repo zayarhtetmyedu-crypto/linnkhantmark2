@@ -70,7 +70,7 @@ def handle_all_messages(message):
 if __name__ == "__main__":
     print("Multi-Bot is starting on Render...")
     bot.infinity_polling()
-    if __name__ == "__main__":
-    print("Multi-Bot is starting on Render...")
-    bot.remove_webhook() # <--- ဒါလေး ထည့်ပေးပါ
-    bot.infinity_polling(restart_on_change=True)
+        if __name__ == "__main__":
+            print("Multi-Bot is starting on Render...")
+            bot.remove_webhook() # <--- ဒါလေး ထည့်ပေးပါ
+            bot.infinity_polling(restart_on_change=True)
